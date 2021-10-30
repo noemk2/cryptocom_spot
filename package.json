@@ -1,0 +1,22 @@
+{
+	"name": "spotcro",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"price": "node ./src/price_usdt.js",
+		"balance": "node ./src/balance.js",
+		"buy": "node ./src/uno.js",
+		"market": "node ./src/market.js",
+		"demo": "node ./demo.js",
+		"update_list": "node ./src/json_usdt.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"crypto-js": "^4.1.1",
+		"dotenv": "^10.0.0"
+	}
+}
