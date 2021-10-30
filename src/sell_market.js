@@ -14,12 +14,13 @@ const apiSecret = process.env.SKEY;
 const coin = process.argv[2].toUpperCase()
 const coin_decimals = instruments.filter(a => a.base_currency === coin)[0].quantity_decimals
 const method = "private/create-order"
-const cantidad_a_comprar = parseInt(process.argv[3])
+const cantidad_a_vender = parseFloat(process.argv[3])
 
+//npm run sell btc 0.00001
 async function main() {
 
-	const price_actual = await f.price_now(coin, "BUY");
-	const quantity = parseFloat((cantidad_a_comprar / price_actual).toFixed(coin_decimals))
+	const price_actual = await f.price_now(coin, "SELL");
+	const quantity = parseFloat((cantidad_a_vender / price_actual).toFixed(coin_decimals))
 
 	let request = {
 		id: 11,
@@ -27,7 +28,7 @@ async function main() {
 		api_key: apiKey,
 		params: {
 			instrument_name: `${coin}_USDT`,
-			side: "BUY",
+			side: "SELL",
 			type: "LIMIT",
 			price: price_actual,
 			quantity: quantity,
