@@ -14,7 +14,7 @@ const apiSecret = process.env.SKEY;
 const coin = process.argv[2].toUpperCase()
 const coin_decimals = instruments.filter(a => a.base_currency === coin)[0].quantity_decimals
 const method = "private/create-order"
-const cantidad_a_comprar = parseFloat(process.argv[3])
+const cantidad_a_comprar = parseInt(process.argv[3])
 
 async function main() {
 
