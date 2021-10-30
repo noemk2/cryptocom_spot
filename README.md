@@ -68,11 +68,11 @@ implementado (guárdelo para usarlo más tarde)
 -----------------------------------------------
 
 Permite comprar al precio actual 
-`npm run market < 100$ > `
+`npm run buy_market < 100$ > `
 
 Para Linux:
 ```bash
-npm run market btc 100
+npm run buy_market btc 100
 ```
 
 

@@ -16,10 +16,9 @@ const coin_decimals = instruments.filter(a => a.base_currency === coin)[0].quant
 const method = "private/create-order"
 const cantidad_a_comprar = parseInt(process.argv[3])
 
-
 async function main() {
 
-	const price_actual = await f.price_now(coin);
+	const price_actual = await f.price_now(coin, "BUY");
 	const quantity = parseFloat((cantidad_a_comprar / price_actual).toFixed(coin_decimals))
 
 	let request = {
