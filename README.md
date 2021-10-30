@@ -38,7 +38,7 @@ git clone https://github.com/noemk2/cryptocom_spot.git
 
 Una vez que hayas descargado el repositorio, asegurate de ejecutar los comandos dentro del repositorio descargado. Puedes hacerlo con
 ```bash
-cd holamundo_as/
+cd cryptocom_spot/
 ```
 
 Step 4: implementacion 
