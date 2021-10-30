@@ -64,7 +64,7 @@ implementado (guárdelo para usarlo más tarde)
 ¡Felicitaciones, ahora tendrá un entorno completo 
 
 
-✏️ Comando  buy vmarket: 
+✏️ Comando  buy market: 
 -----------------------------------------------
 
 Permite comprar al precio actual 
