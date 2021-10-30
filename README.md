@@ -36,7 +36,14 @@ Una vez que hayas descargado el repositorio, asegurate de ejecutar los comandos 
 cd cryptocom_spot/
 ```
 
-Step 4: implementacion 
+modificar el file .env y agregar su apikey y secret_key
+
+`bash
+KEY=apikey
+SKEY=secret_key
+`
+
+Step 3: implementacion 
 ------------------------------------------------------------------------------------
 
 Instale el gestor de dependencia de Node.js dentro del repositorio
