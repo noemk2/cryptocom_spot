@@ -38,10 +38,10 @@ cd cryptocom_spot/
 
 modificar el file .env y agregar su apikey y secret_key
 
-`bash
+```bash
 KEY=apikey
 SKEY=secret_key
-`
+```
 
 Step 3: implementacion 
 ------------------------------------------------------------------------------------
