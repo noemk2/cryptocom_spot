@@ -11,7 +11,8 @@
 		"limit": "node ./src/buy_limit.js",
 		"update_list": "node ./src/json_usdt.js",
 		"trans": "node ./src/transfer.js",
-		"repay": "node ./src/repay.js"
+		"repay": "node ./src/repay.js",
+		"cancel_all": "node ./src/cancel_all_orders.js"
 	},
 	"keywords": [],
 	"author": "",
