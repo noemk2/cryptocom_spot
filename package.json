@@ -10,7 +10,8 @@
 		"sell": "node ./src/sell_market.js",
 		"limit": "node ./src/buy_limit.js",
 		"update_list": "node ./src/json_usdt.js",
-		"trans": "node ./src/transfer.js",
+		"trans": "node ./src/transfer_margin.js",
+		"trans_deriv": "node ./src/transfer_deriv.js",
 		"repay": "node ./src/repay.js",
 		"cancel_all": "node ./src/cancel_all_orders.js"
 	},
